@@ -1,0 +1,26 @@
+#body{
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 5px;
+}
+#photo_text{
+    text-align: center;
+    color: gray;
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+#id_card{
+    color: gray;
+}
+#father{
+    color: gray;
+}
+#e_mail{
+    color: gray;
+}
+#dob_b{
+    color: gray;
+}

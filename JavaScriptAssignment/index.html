@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="Css/style.css">
+        <script type="text/javascript" src="Script/script.js"></script>
+    </head>
+    <body>
+        <form>
+            <h1><b>Submit Your Application</b></h1>
+            <h4>for. <span><b>Net Developer(Freshers)</b></span></h4>
+            <h2><b>Personal Informqation</b></h2> <br>
+           <table align="center">
+               <tr>
+                   <td>
+                    <label id = id_card>Name as per ID proof</label>
+                    <label id="req" style="color: red; visibility: visible;">*</label>
+                    <label id="lbtext" style="color: red; visibility: hidden;">Invalid</label>
+                    <br>
+                    <input  id="name" type="text" placeholder="Name">
+                   </td>
+                   <td>
+                    <label id="father">Father'sName</label>
+                    <label id="req1" style="color: red; visibility: visible;">*</label>
+                    <label id="lbtext1" style="color: red; visibility: hidden;">special character and numbers are not allowed</label>
+                    <br>
+                    <input  id="fathername" type="text" placeholder="Father's Name">
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <label id="e_mail">Email</label>
+                    <label id="req2" style="color: red; visibility: visible;">*</label>
+                    <label id="lbtext2" style="color: red;visibility: hidden;">enter a valid mail id</label> 
+                    <br>
+                    <input id="email" type="text" placeholder="Email">
+
+                   </td>
+                   <td>
+                    <label id="dob_">Date of birth</label>
+                    <label id="req3" style="color: red; visibility: visible;">*</label>
+                    <label id="dob1" style="color: red; visibility: hidden;">Required</label>
+                    <br>
+                    <input id="dob" type="text" placeholder="DD-MM-YYYY">
+
+                   </td>
+                   <td>
+                    <label id="mob">Mobile Number</label> 
+                    <label id="req4" style="color: red; visibility: visible;">*</label>
+                    <label id="mob_num" style="color: red; visibility: hidden;">enter valid mobile number</label>
+                    <br>
+                    <input id="mobileNumber" type="number" placeholder="Mobile number">
+
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <label>Current Address</label> 
+                    <label id="req5" style="color: red; visibility: visible;">*</label>
+                    <label id="curr_address" style="color: red; visibility: hidden;">Enter the address</label>
+                    <br>
+                    <input id="addressline" type="text" placeholder=""Addressline1> 
+                    <!-- <input id ="addressline1" type="text" placeholder=""Addressline2> -->
+
+                   </td>
+                   <td>
+                    <input id ="addressline1" type="text" placeholder=""Addressline2>
+
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <label id="req6" style="color: red; visibility: visible;">*</label>
+                    <label id="lbtext3" style="color: red; visibility: hidden;">city is required</label>
+                    <input id="city1" type="text" placeholder="City">
+                       
+                   </td>
+                   <td>
+                    <select name="dragbox" id="selectbox">
+                        <option value="tamilnadu">TamilNadu</option>
+                        <option value="kerala">Kerala</option>
+                        <option value="andhrapradesh">Andhra pradesh</option>
+                        <option value="karnataka">Karnataka</option>
+                    </select>
+
+                   </td>
+                   <td>
+                    <label id="req7" style="color: red; visibility: visible;">*</label>
+                    <label id="pin" style="color: red; visibility: hidden;">Enter pincode</label>
+                    <input id="pin_code" type="number" placeholder="PinCode">
+
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <label>Permanent Addresss</label>
+                    <label id="req8" style="color: red; visibility: visible;">*</label>
+                    
+                    <input  id="radio" type="checkbox">same as permanent address</input><br>
+                    <label id="lbtext4" style="color: red; visibility: hidden;">Address is Required</label>
+
+
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <input id="addressline" type="text" placeholder=""Addressline1>
+                    
+
+                   </td>
+                   <td>
+                    <input id ="addressline1" type="text" placeholder=""Addressline2>
+
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <label id="lbtext5" style="color: red; visibility: hidden;">enter the city</label>
+                    <input id="city" type="text">
+
+                   </td>
+                   <td>
+                    <select name="dragbox" id="selectbox">
+                        <option value="tamilnadu">TamilNadu</option>
+                        <option value="kerala">Kerala</option>
+                        <option value="andhrapradesh">Andhra pradesh</option>
+                        <option value="karnataka">Karnataka</option>
+                    </select>
+
+                   </td>
+                   <td>
+                    <label id="lbtext6" style="color: red; visibility: hidden;" >Entet  Pincode</label>
+                    <input id="pin_code" type="number">
+
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       
+                   </td>
+               </tr>
+           </table>
+
+            <div id="photo_text">
+                <p>Upload a Profile Photo (JPG/Pngformat only)</p>
+                <p>Please Upload a Photo Yourself.Your face should be Clearly Visible.Make sure size does not exceed 500kb</p>
+
+            </div>
+
+            <br><br>
+           
+            <table align="center">
+                <tr>
+                    <td>
+                        <button>Upload</button>
+                        <label id="lbtext7" style="color: red; visibility: hidden;">Upload a image</label>
+
+                    </td>
+                </tr>
+                tr
+            </table>
+            <button type="button" onclick="sub()">Next</button>
+
+
+        </form>
+    </body>
+</html>
